@@ -33,8 +33,8 @@ var aa = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/
 <p id="wiki"><a href="http://www.etymologiewebsite.nl/wiki/Hoofdpagina" target="new">Meehelpen? Ga naar etymologieWiki</a></p> \
 </td> \
 <td id="text">			<h2>Zoekresultaten</h2> \
-					<p><a href="http://www.etymologiebank.nl/trefwoord/sabotage">sabotage a </a></p> \
-                    <p><a href="http://www.etymologiebank.nl/trefwoord/sabotage">sabotage b </a></p> \
+					<p><a href="http://www.etymologiebank.nl/trefwoord/sabotage">sabotage a </a></p>\n\
+                    <p><a href="http://www.etymologiebank.nl/trefwoord/sabotage">sabotage b </a></p>\n\
 				<div id="bron">Bronverwijzing: <br><i>Sijs, Nicoline van der (samensteller) (2010), Etymologiebank, op http://etymologiebank.nl/</i></div> \
 </td></tr></table> \
 </div><div id="voet">Hosted by Meertens Instituut</div> \
@@ -108,6 +108,6 @@ e.show('ziekte', function(resp) {
     console.log(resp);
 });*/
 
-console.log(e.searchToJson('sabotage', aa));
+//console.log(e.searchToJson('sabotage', aa));
 
 console.log(e.showToJson('ziekte', bb));
