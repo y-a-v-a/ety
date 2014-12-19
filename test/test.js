@@ -100,6 +100,7 @@ var bb = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http:/
 </html>';
 
 
+
 /*e.search('sabotage', function(resp) {
     console.log(resp);
 });
@@ -108,6 +109,12 @@ e.show('ziekte', function(resp) {
     console.log(resp);
 });*/
 
-//console.log(e.searchToJson('sabotage', aa));
+//e.searchToJson('sabotage', aa, function(err, response) {
+  //  console.log(err, response);
+  //});
 
-console.log(e.showToJson('ziekte', bb));
+console.log(e.showToJson('ziekte', bb, function(err, response) {
+    console.log(err, response);
+}));
+
+
