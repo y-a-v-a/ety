@@ -1,8 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  width: 680px;
+  margin: 0 auto;
 }
 
 a {
-  color: #00B7FF;
+  color: #dd0000;
+}
+
+p {
+    color: #333;
+}
+
+i {
+    color: #880000;
+}
+
+b {
+    color: #990000;
+}
+
+.ety {
+    padding: 1em;
+}
+
+.info {
+    margin-bottom: 1.5em;
+}
+
+.info h3 {
+    color: #444;
+    margin: 2em 0 1em 0;
+}
+
+.lemma {
+    margin-left: 1em;
+}
+
+footer {
+    margin-top: 1.5em;
+    font-size: 75%;
+    color: #777;
+    padding: 1em;
 }
