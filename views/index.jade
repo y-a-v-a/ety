@@ -3,12 +3,12 @@ extends layout
 block content
   div(ng-controller='etyCtrl')
     h1= title
-    p Welcome to #{title}
-    input(type='text', placeholder='query here', autofocus, name='query' ng-model='text' ng-change='fetch()' ng-minlength='3')
+    input(type='text', placeholder='Woord hier', autofocus, name='query' ng-model='text' ng-change='fetch()' ng-minlength='3')
     h2 {{term}}
     div(ng-repeat='t in terms')
       div
         a(href='/show/{{t.link}}' ng-click='show($event)') {{t.term}}
     div(ng-repeat='s in sources')
       div
-        {{s.source}} {{s.lemma}}
+        h3(ng-bind-html='s.source | sanitize')
+        div(ng-bind-html='s.lemma | sanitize')
